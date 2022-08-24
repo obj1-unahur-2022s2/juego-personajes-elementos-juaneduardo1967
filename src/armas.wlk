@@ -6,6 +6,11 @@ object ballesta {
 	method usarArma() { cantidadDeFlechas-- }
 	
 	method potenciaDelArma() = 4
+	method cantidadDeFlechas(){
+		return cantidadDeFlechas
+	}
+	
+	
 	
 }
 

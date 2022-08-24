@@ -3,6 +3,11 @@ import armas.*
 test "ballesta esta cargada"{
   assert.that(ballesta.estaCargada())
 }
+test "usar"{
+	ballesta.usarArma()
+	assert.equals(9,ballesta.cantidadDeFlechas())
+	
+}
 
 test "jabalina no cargada"{
   jabalina.usarArma()
