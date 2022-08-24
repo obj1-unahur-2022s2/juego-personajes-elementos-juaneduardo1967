@@ -3,7 +3,7 @@ import armas.*
 object castillo {
 	var nivelDefensa = 150
 	
-	
+	method nivelDeDefensa(){return nivelDefensa}
 	method altura() = 20
 	method recibirAtaque(unArma) { nivelDefensa = 0.max(nivelDefensa - unArma.potenciaDelArma()) }
 	method valorOtorgado() = nivelDefensa / 5
